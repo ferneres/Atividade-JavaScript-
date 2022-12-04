@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Atividade JavaScript - Impressão em tela e Funções</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Soma:</legend>
+        <label>1º número:</label>
+        <input id="v1" type="text"/><br><br>
+        <label>2º número: </label>
+        <input id="v2" type="text"/><br><br>
+        <label>3º número: </label>
+        <input id="v3" type="text"/><br><br>
+        <button onclick="exibeMsg()">Somar</button>
+    </fieldset>
+    <style>
+        body{
+            background-color: rgb(134, 249, 243);
+        }
+        fieldset{
+    font-weight: bold;
+    border-radius: 20px;
+    border-style: double;
+    border-color: black;
+    background-color: aqua;
+    width:600px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+        }
+    </style>
+   
+        <script type="text/javascript">
+        function exibeMsg(){
+        var v1 = document.getElementById("v1").value;
+        var v2 = document.getElementById("v2").value;
+        var v3 = document.getElementById("v3").value;
+
+        var v4 =parseInt(v1) + parseInt(v2)+parseInt(v3) ;
+        alert(v4);
+    }
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 196, 196);
+}
+fieldset{
+font-weight: bold;
+border-radius: 20px;
+border-style: double;
+border-color: black;
+background-color: pink;
+width:600px;
+height:auto;
+margin-left: auto;
+margin-right: auto;
+}
